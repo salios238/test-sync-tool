@@ -1,5 +1,5 @@
 import yaml
-from .log_utils import VolumeLogger  # ドットを忘れずに！
+from .log_utils import VolumeLogger
 
 def main(env="DEV", updated_tables=None):
     logger = VolumeLogger("test_log", env)
